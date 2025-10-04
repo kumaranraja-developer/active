@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Call Render API
         run: |
-          curl -s -o /dev/null -w "%{http_code}" https://your-app.onrender.com/health
+          curl -s -o /dev/null -w "%{http_code}" https://bill-api-v3-latest.onrender.com/health
